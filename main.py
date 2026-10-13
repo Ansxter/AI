@@ -14,7 +14,7 @@ def batch_resize(input_folder, output_folder, size=(300, 200)):
             resized.save(save_path)
             print(f"已縮放: {filename} → {save_path}, 尺寸: {resized.size}")
 
-# 使用範例
-input_folder = "image"        # 原始圖片資料夾
-output_folder = "resized_images"  # 縮放後輸出資料夾
+
+input_folder = "image"
+output_folder = "resized_images"
 batch_resize(input_folder, output_folder, size=(300, 200))
