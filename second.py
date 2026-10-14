@@ -28,4 +28,4 @@ output_folder = "gray_images"
 batch_convert_to_gray(input_folder, output_folder)
 
 
-observe_pixels("image/sample.jpg", [(0,0), (50,50), (100,100)])
+observe_pixels("image/smaple.jpg", [(0,0), (50,50), (100,100)])
